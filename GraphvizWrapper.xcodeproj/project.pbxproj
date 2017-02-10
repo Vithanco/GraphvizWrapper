@@ -8,21 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		408323801E4CEC9D0097FF28 /* module.map in Headers */ = {isa = PBXBuildFile; fileRef = 409DDB881E4C8E600065E6CE /* module.map */; settings = {ATTRIBUTES = (Public, ); }; };
-		408323851E4CF83C0097FF28 /* gvc.h in Headers */ = {isa = PBXBuildFile; fileRef = 408323841E4CF83C0097FF28 /* gvc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		408323871E4DF4B00097FF28 /* headers in Resources */ = {isa = PBXBuildFile; fileRef = 408323821E4CF7CF0097FF28 /* headers */; };
-		408323891E4DF9C00097FF28 /* headers in CopyFiles */ = {isa = PBXBuildFile; fileRef = 408323821E4CF7CF0097FF28 /* headers */; };
-		4083238A1E4DF9C60097FF28 /* libgvc.6.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 409DDB901E4C8F160065E6CE /* libgvc.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4083238B1E4DF9CA0097FF28 /* libcgraph.6.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 409DDB8E1E4C8F0D0065E6CE /* libcgraph.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4083238C1E4DF9D80097FF28 /* gvc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 408323841E4CF83C0097FF28 /* gvc.h */; };
 		409DDB661E4C780C0065E6CE /* GraphvizWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409DDB5C1E4C780C0065E6CE /* GraphvizWrapper.framework */; };
 		409DDB6B1E4C780C0065E6CE /* GraphvizWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409DDB6A1E4C780C0065E6CE /* GraphvizWrapperTests.swift */; };
 		409DDB6D1E4C780C0065E6CE /* GraphvizWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 409DDB5F1E4C780C0065E6CE /* GraphvizWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		409DDB8B1E4C8EF70065E6CE /* libgvc.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 409DDB8A1E4C8EF70065E6CE /* libgvc.6.dylib */; };
-		409DDB8D1E4C8EF90065E6CE /* libcgraph.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 409DDB8C1E4C8EF90065E6CE /* libcgraph.6.dylib */; };
-		409DDB8F1E4C8F0D0065E6CE /* libcgraph.6.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 409DDB8E1E4C8F0D0065E6CE /* libcgraph.6.dylib */; };
-		409DDB911E4C8F160065E6CE /* libgvc.6.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 409DDB901E4C8F160065E6CE /* libgvc.6.dylib */; };
 		409DDB941E4C8F850065E6CE /* GraphvizWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409DDB931E4C8F850065E6CE /* GraphvizWrapper.swift */; };
 		409DDB971E4C90020065E6CE /* GraphvizWrapper.swift in Headers */ = {isa = PBXBuildFile; fileRef = 409DDB931E4C8F850065E6CE /* GraphvizWrapper.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		40D72CE61E4E05D600C9DF72 /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = 40D72CE31E4E05D600C9DF72 /* Headers */; };
+		40D72CE71E4E05D600C9DF72 /* Documentation in Resources */ = {isa = PBXBuildFile; fileRef = 40D72CE41E4E05D600C9DF72 /* Documentation */; };
+		40D72CE81E4E05D600C9DF72 /* Libraries in Resources */ = {isa = PBXBuildFile; fileRef = 40D72CE51E4E05D600C9DF72 /* Libraries */; };
+		40D72CED1E4E061A00C9DF72 /* libcgraph.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D72CE91E4E05F400C9DF72 /* libcgraph.6.dylib */; };
+		40D72CEE1E4E061C00C9DF72 /* libgvc.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D72CEB1E4E05FF00C9DF72 /* libgvc.6.dylib */; };
+		40D72CF21E4E06B400C9DF72 /* Headers in CopyFiles */ = {isa = PBXBuildFile; fileRef = 40D72CE31E4E05D600C9DF72 /* Headers */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,38 +32,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		408323881E4DF9A00097FF28 /* CopyFiles */ = {
+		40D72CF11E4E069A00C9DF72 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = graphviz;
-			dstSubfolderSpec = 6;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
-				408323891E4DF9C00097FF28 /* headers in CopyFiles */,
-				4083238C1E4DF9D80097FF28 /* gvc.h in CopyFiles */,
-				4083238A1E4DF9C60097FF28 /* libgvc.6.dylib in CopyFiles */,
-				4083238B1E4DF9CA0097FF28 /* libcgraph.6.dylib in CopyFiles */,
+				40D72CF21E4E06B400C9DF72 /* Headers in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		408323821E4CF7CF0097FF28 /* headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = headers; path = graphviz/headers; sourceTree = "<group>"; };
-		408323841E4CF83C0097FF28 /* gvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gvc.h; path = graphviz/headers/gvc.h; sourceTree = "<group>"; };
 		409DDB5C1E4C780C0065E6CE /* GraphvizWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GraphvizWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		409DDB5F1E4C780C0065E6CE /* GraphvizWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphvizWrapper.h; sourceTree = "<group>"; };
 		409DDB601E4C780C0065E6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		409DDB651E4C780C0065E6CE /* GraphvizWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphvizWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		409DDB6A1E4C780C0065E6CE /* GraphvizWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphvizWrapperTests.swift; sourceTree = "<group>"; };
 		409DDB6C1E4C780C0065E6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		409DDB7F1E4C7BAE0065E6CE /* graphviz */ = {isa = PBXFileReference; lastKnownFileType = folder; path = graphviz; sourceTree = "<group>"; };
-		409DDB881E4C8E600065E6CE /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
-		409DDB8A1E4C8EF70065E6CE /* libgvc.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgvc.6.dylib; path = graphviz/lib/libgvc.6.dylib; sourceTree = "<group>"; };
-		409DDB8C1E4C8EF90065E6CE /* libcgraph.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcgraph.6.dylib; path = graphviz/lib/libcgraph.6.dylib; sourceTree = "<group>"; };
-		409DDB8E1E4C8F0D0065E6CE /* libcgraph.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcgraph.6.dylib; path = graphviz/lib/libcgraph.6.dylib; sourceTree = "<group>"; };
-		409DDB901E4C8F160065E6CE /* libgvc.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgvc.6.dylib; path = graphviz/lib/libgvc.6.dylib; sourceTree = "<group>"; };
+		409DDB881E4C8E600065E6CE /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.map; path = /Users/klaus/Documents/xcode/GraphvizWrapper/module.map; sourceTree = "<absolute>"; };
 		409DDB931E4C8F850065E6CE /* GraphvizWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphvizWrapper.swift; sourceTree = "<group>"; };
 		409DDB9A1E4C91E50065E6CE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		40D72CE31E4E05D600C9DF72 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Headers; sourceTree = "<group>"; };
+		40D72CE41E4E05D600C9DF72 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = "<group>"; };
+		40D72CE51E4E05D600C9DF72 /* Libraries */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Libraries; sourceTree = "<group>"; };
+		40D72CE91E4E05F400C9DF72 /* libcgraph.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcgraph.6.dylib; path = Libraries/libcgraph.6.dylib; sourceTree = "<group>"; };
+		40D72CEB1E4E05FF00C9DF72 /* libgvc.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgvc.6.dylib; path = Libraries/libgvc.6.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409DDB8B1E4C8EF70065E6CE /* libgvc.6.dylib in Frameworks */,
-				409DDB8D1E4C8EF90065E6CE /* libcgraph.6.dylib in Frameworks */,
+				40D72CED1E4E061A00C9DF72 /* libcgraph.6.dylib in Frameworks */,
+				40D72CEE1E4E061C00C9DF72 /* libgvc.6.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,14 +85,11 @@
 		409DDB521E4C780C0065E6CE = {
 			isa = PBXGroup;
 			children = (
-				408323841E4CF83C0097FF28 /* gvc.h */,
-				408323821E4CF7CF0097FF28 /* headers */,
+				40D72CE31E4E05D600C9DF72 /* Headers */,
+				40D72CE41E4E05D600C9DF72 /* Documentation */,
+				40D72CE51E4E05D600C9DF72 /* Libraries */,
 				409DDB9A1E4C91E50065E6CE /* README.md */,
 				409DDB931E4C8F850065E6CE /* GraphvizWrapper.swift */,
-				409DDB881E4C8E600065E6CE /* module.map */,
-				409DDB901E4C8F160065E6CE /* libgvc.6.dylib */,
-				409DDB8E1E4C8F0D0065E6CE /* libcgraph.6.dylib */,
-				409DDB7F1E4C7BAE0065E6CE /* graphviz */,
 				409DDB5E1E4C780C0065E6CE /* GraphvizWrapper */,
 				409DDB691E4C780C0065E6CE /* GraphvizWrapperTests */,
 				409DDB5D1E4C780C0065E6CE /* Products */,
@@ -139,8 +127,8 @@
 		409DDB891E4C8EF60065E6CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				409DDB8C1E4C8EF90065E6CE /* libcgraph.6.dylib */,
-				409DDB8A1E4C8EF70065E6CE /* libgvc.6.dylib */,
+				40D72CEB1E4E05FF00C9DF72 /* libgvc.6.dylib */,
+				40D72CE91E4E05F400C9DF72 /* libcgraph.6.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,7 +143,6 @@
 				409DDB6D1E4C780C0065E6CE /* GraphvizWrapper.h in Headers */,
 				409DDB971E4C90020065E6CE /* GraphvizWrapper.swift in Headers */,
 				408323801E4CEC9D0097FF28 /* module.map in Headers */,
-				408323851E4CF83C0097FF28 /* gvc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +157,7 @@
 				409DDB581E4C780C0065E6CE /* Frameworks */,
 				409DDB591E4C780C0065E6CE /* Headers */,
 				409DDB5A1E4C780C0065E6CE /* Resources */,
-				408323881E4DF9A00097FF28 /* CopyFiles */,
+				40D72CF11E4E069A00C9DF72 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -244,9 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408323871E4DF4B00097FF28 /* headers in Resources */,
-				409DDB911E4C8F160065E6CE /* libgvc.6.dylib in Resources */,
-				409DDB8F1E4C8F0D0065E6CE /* libcgraph.6.dylib in Resources */,
+				40D72CE81E4E05D600C9DF72 /* Libraries in Resources */,
+				40D72CE61E4E05D600C9DF72 /* Headers in Resources */,
+				40D72CE71E4E05D600C9DF72 /* Documentation in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +385,7 @@
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/graphviz/headers",
+					"$(PROJECT_DIR)/Headers",
 					"$(PROJECT_DIR)/",
 				);
 				INFOPLIST_FILE = GraphvizWrapper/Info.plist;
@@ -407,7 +394,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/graphviz/lib",
+					"$(PROJECT_DIR)/Libraries",
 				);
 				MODULEMAP_FILE = "$(PROJECT_DIR)/module.map";
 				PRODUCT_BUNDLE_IDENTIFIER = de.kneupner.software.GraphvizWrapper;
@@ -432,7 +419,7 @@
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
 				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/graphviz/headers",
+					"$(PROJECT_DIR)/Headers",
 					"$(PROJECT_DIR)/",
 				);
 				INFOPLIST_FILE = GraphvizWrapper/Info.plist;
@@ -441,7 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/graphviz/lib",
+					"$(PROJECT_DIR)/Libraries",
 				);
 				MODULEMAP_FILE = "$(PROJECT_DIR)/module.map";
 				PRODUCT_BUNDLE_IDENTIFIER = de.kneupner.software.GraphvizWrapper;

@@ -1,4 +1,4 @@
 module GraphvizWrapper {
-	header "graphviz/headers/gvc.h"
+	header "Headers/gvc.h"
 	export *
 }
