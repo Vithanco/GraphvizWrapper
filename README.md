@@ -1,3 +1,7 @@
+Retired. Use SwiftGraphviz instead
+
+
+
 #GraphvizWrapper - Simple Swift Wrapper for macOS around the Graphviz library
 
 This is a simple framework for Xcode in order to be able to use the Graphviz library in any Swift program. 
